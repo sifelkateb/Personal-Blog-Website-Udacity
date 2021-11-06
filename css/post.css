@@ -1,0 +1,23 @@
+@import "./setting.css";
+@import "./nav.css";
+@import "./footer.css";
+@import "./header.css";
+@import "./info.css";
+@import "./post-content.css";
+
+main {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  grid-area: main;
+  display: grid;
+  grid-template-rows: 64px auto auto 40px;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-areas:
+    "hd hd hd hd hd hd hd "
+    "info info info info info info info"
+    "post post post post post post post "
+    "ft ft ft ft ft ft ft";
+  border: 10px solid rgba(13, 7, 36, 0.336);
+  border-radius: 15px;
+}

@@ -1,0 +1,17 @@
+footer {
+  grid-area: ft;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #424558;
+}
+footer p {
+  padding: 10px;
+  font-size: 1.2em;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+}
+footer p:hover {
+  background-color: #111;
+}

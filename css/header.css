@@ -1,0 +1,11 @@
+header {
+  width: 100%;
+  grid-area: hd;
+}
+header h1 {
+  font-family: "Luckiest Guy", cursive;
+  text-align: center;
+  color: white;
+  background-color: #424558;
+  padding: 10px;
+}
